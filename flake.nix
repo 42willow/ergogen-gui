@@ -30,6 +30,7 @@
         ];
 
         RUSTFLAGS = "-L ${pkgs.libiconv}/lib";
+        ERGOGEN_VERSION = "github:ceoloide/ergogen#v4.3.0";
       };
     });
   };
